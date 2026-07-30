@@ -493,7 +493,75 @@ transform:translateY(-10px);
 text-align:center;
 padding:100px 25px;
 }
+/* V11 Final Sections */
 
+#news .card,
+#timeline .card,
+#features .card{
+
+text-align:center;
+
+}
+
+#topButton{
+
+position:fixed;
+
+bottom:25px;
+
+right:25px;
+
+width:55px;
+
+height:55px;
+
+border:none;
+
+border-radius:50%;
+
+background:#22c55e;
+
+color:black;
+
+font-size:22px;
+
+cursor:pointer;
+
+display:none;
+
+box-shadow:0 0 20px rgba(34,197,94,.4);
+
+transition:.3s;
+
+z-index:999;
+
+}
+
+#topButton:hover{
+
+transform:scale(1.1);
+
+}
+
+footer{
+
+text-align:center;
+
+padding:60px 20px;
+
+border-top:1px solid rgba(255,255,255,.08);
+
+background:#050505;
+
+}
+
+footer p{
+
+margin:10px 0;
+
+color:#9a9a9a;
+
+}
 #discord p{
 max-width:700px;
 margin:auto;
