@@ -439,3 +439,63 @@ opacity:0;
 }
 
 }
+#stats .card h3{
+
+font-size:2.8rem;
+
+color:#22c55e;
+
+margin-bottom:15px;
+
+font-weight:800;
+
+text-shadow:0 0 15px rgba(34,197,94,.5);
+
+}
+
+#ranks .card{
+
+cursor:pointer;
+
+}
+
+#ranks .card:hover{
+
+transform:translateY(-12px) scale(1.03);
+
+}/* Staff */
+
+#staff .card{
+text-align:center;
+}
+
+/* Leaderboard */
+
+#leaderboard .card h3{
+font-size:2rem;
+margin-bottom:15px;
+color:#22c55e;
+}
+
+/* FAQ */
+
+#faq .card{
+cursor:pointer;
+}
+
+#faq .card:hover{
+transform:translateY(-10px);
+}
+
+/* Discord */
+
+#discord{
+text-align:center;
+padding:100px 25px;
+}
+
+#discord p{
+max-width:700px;
+margin:auto;
+margin-bottom:35px;
+}
